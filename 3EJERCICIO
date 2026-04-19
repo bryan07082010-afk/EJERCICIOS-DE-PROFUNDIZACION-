@@ -1,0 +1,12 @@
+Algoritmo AlertaTemperatura
+    Definir temperatura Como Real
+    
+    Escribir "Ingrese la temperatura:"
+    Leer temperatura
+    
+    Si temperatura > 100 Entonces
+        Escribir "ALERTA: Abrir válvula de escape"
+    Sino
+        Escribir "Temperatura normal"
+    FinSi
+FinAlgoritmo
