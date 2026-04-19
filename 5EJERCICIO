@@ -1,0 +1,12 @@
+Algoritmo ValidacionInventario
+    Definir cantidad Como Entero
+    
+    Escribir "Ingrese la cantidad de piezas:"
+    Leer cantidad
+    
+    Si cantidad < 5 Entonces
+        Escribir "Solicitar pedido urgente al proveedor"
+    Sino
+        Escribir "Stock suficiente"
+    FinSi
+FinAlgoritmo
