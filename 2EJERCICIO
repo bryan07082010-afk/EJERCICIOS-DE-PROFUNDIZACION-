@@ -1,0 +1,12 @@
+Algoritmo AprobacionSENA
+    Definir nota Como Real
+    
+    Escribir "Ingrese la nota final:"
+    Leer nota
+    
+    Si nota >= 3.5 Entonces
+        Escribir "Competencia Alcanzada"
+    Sino
+        Escribir "No aprobó"
+    FinSi
+FinAlgoritmo
