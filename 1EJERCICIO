@@ -1,0 +1,12 @@
+Algoritmo ControlAcceso
+    Definir edad Como Entero
+    
+    Escribir "Ingrese su edad:"
+    Leer edad
+    
+    Si edad >= 18 Entonces
+        Escribir "Bienvenido al laboratorio de robótica"
+    Sino
+        Escribir "Acceso denegado"
+    FinSi
+FinAlgoritmo
